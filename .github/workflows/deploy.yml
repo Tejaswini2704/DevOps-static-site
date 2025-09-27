@@ -7,7 +7,7 @@ on:
 
 jobs:
   deploy:
-    runs-on: Ubuntu 24.04.2 LTS
+    runs-on: ubuntu-latest
 
     steps:
       - name: Checkout repository
